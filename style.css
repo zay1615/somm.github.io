@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #ff1493;
+}
+
+#showMessage {
+    background-color: #ff69b4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#showMessage:hover {
+    background-color: #ff1493;
+}
+
+#valentineMessage {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #d63384;
+}
