@@ -5,6 +5,7 @@ document.getElementById("showMessage").addEventListener("click", function() {
 });
 
 document.getElementById("yesButton").addEventListener("click", function() {
+    document.getElementById("openPresentsMessage").style.display = "block"; // Show the presents message
     document.getElementById("specialLink").style.display = "inline"; // Show the link if Yes is clicked
 });
 
